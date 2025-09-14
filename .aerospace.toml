@@ -94,7 +94,8 @@ automatically-unhide-macos-hidden-apps = false
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     alt-h = 'layout tiles horizontal vertical'
     # alt-comma = 'layout accordion horizontal vertical'
-
+    alt-t = 'close'
+    alt-shift-t = 'close-all-windows-but-current --quit-if-last-window'
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
     alt-left = 'focus left'
     alt-down = 'focus down'
