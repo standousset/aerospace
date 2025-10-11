@@ -162,23 +162,13 @@ automatically-unhide-macos-hidden-apps = false
     up = 'volume up'
     shift-down = ['volume set 0', 'mode main']
 
-
-
 [[on-window-detected]]
-    if.app-id = 'com.apple.Terminal'
-    run = 'move-node-to-workspace 9'
-
-[[on-window-detected]]
-    if.app-id = 'com.google.Chrome'
-    run = 'move-node-to-workspace 7' # mnemonics W - Web browser
+    if.app-id = 'com.brave.Browser'
+    run = 'move-node-to-workspace 1'
 
 [[on-window-detected]]
     if.app-id = 'com.mitchellh.ghostty'
     run = 'move-node-to-workspace 2'
-
-[[on-window-detected]]
-    if.app-id = 'com.brave.Browser'
-    run = 'move-node-to-workspace 1'
 
 [[on-window-detected]]
     if.app-id = 'md.obsidian'
@@ -187,3 +177,23 @@ automatically-unhide-macos-hidden-apps = false
 [[on-window-detected]]
     if.app-id = 'notion.id'
     run = 'move-node-to-workspace 4'
+
+[[on-window-detected]]
+    if.app-id = 'com.google.Chrome'
+    run = 'move-node-to-workspace 5'
+
+[[on-window-detected]]
+    if.app-id = 'notion.id'
+    run = 'move-node-to-workspace 6'
+
+[[on-window-detected]]
+    if.app-id = 'org.videolan.vlc'
+    run = 'move-node-to-workspace 7'
+
+[[on-window-detected]]
+    if.app-id = 'org.qbittorrent.qBittorrent'
+    run = 'move-node-to-workspace 8'
+
+[[on-window-detected]]
+    if.app-id = 'com.apple.Terminal'
+    run = 'move-node-to-workspace 9'
