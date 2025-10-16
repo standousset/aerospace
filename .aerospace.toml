@@ -226,7 +226,7 @@ automatically-unhide-macos-hidden-apps = false
 
 [[on-window-detected]]
     if.app-id         =     'org.videolan.vlc'
-    run               =     'move-node-to-workspace V'
+    run               =     'move-node-to-workspace M'
 
 [[on-window-detected]]
     if.app-id         =     'org.qbittorrent.qBittorrent'
@@ -244,8 +244,9 @@ automatically-unhide-macos-hidden-apps = false
     if.app-id         =     'com.apple.finder'
     run               =     'move-node-to-workspace F'
 
-
-
+[[on-window-detected]]
+    if.app-id         =     'com.microsoft.VSCode'
+    run               =     'move-node-to-workspace V'
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
